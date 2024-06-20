@@ -37,7 +37,7 @@ steps:
   workingDirectory: $(wwwrootDir)
 
 - task: NuGetCommand@2
-  displyaName: ' Restoreproject dependancies'
+  displayName: ' Restoreproject dependancies'
   inputs:
    command: 'restore'
    restoreSolution: '**/*.sln'
